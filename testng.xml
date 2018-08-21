@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="WebApp1">
-	<test name="NewTest">
-		<classes>
-			<class name="Testfile.NewTest" />
-		</classes>
-	</test>
-</suite>
+ 
+ <test name="WebApp1">
+ <classes>
+ <class name="Testfile.TestBase" /> 
+ <class name="Testfile.FbLoginTest" /> 
+ </classes> 
+ </test> 
+ 
+</suite> <!-- Suite -->
